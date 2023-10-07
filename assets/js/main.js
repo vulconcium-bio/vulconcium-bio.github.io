@@ -24,14 +24,6 @@
 					}
 				}
 		}
-
-	  $(".download").click(function() {
-	  	$("[data-pane]").removeClass("active");
-	  	$("[data-pane='5']").addClass("active");
-	  	$(".pane").hide();
-	  	$("#pane5").show();
-		saveInAnalytics("clicks", "download", $(this).attr("href"));
-	  });
 	  
 	});
 })(jQuery);
